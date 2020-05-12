@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test suite">
+    <listeners>
+
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+
+    </listeners>
+    <test name="test">
+        <parameter name="text1" value="no"/>
+        <parameter name="text" value="yes"/>
+        <groups>
+            <run>
+                <include name="gp1"/>
+                <include name="gp2"/>
+                <include name="gp3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="greyatom.TestNGTest"></class>
+        </classes>
+    </test>
+    <test name="test 2">
+        <classes>
+            <class name="greyatom.FactoryExampleT"/>
+        </classes>
+    </test>
+</suite>

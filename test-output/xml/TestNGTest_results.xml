@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.011">
+  <properties />
+  
+  
+            <testcase name="printData" time="0.000" classname="greyatom.TestNGTest" />
+                <testcase name="printData" time="0.000" classname="greyatom.TestNGTest" />
+                <testcase name="printYes" time="0.000" classname="greyatom.TestNGTest" />
+                <testcase name="printNo" time="0.011" classname="greyatom.TestNGTest" />
+                <testcase name="printData" time="0.000" classname="greyatom.TestNGTest" />
+      
+</testsuite>

@@ -1,0 +1,5 @@
+
+ssquid:S1450"URemove the "driver" field and declare it as a local variable in the relevant methods.(Õú¨Š8Ž®î¢Ý-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Êè…Õûÿÿÿÿ8Ž®î¢Ý-
+bsquid:S2133"?Remove this object instantiation and use "Log4j.class" instead.(ìðŽìþÿÿÿÿ8Ž®î¢Ý-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ž®î¢Ý-
